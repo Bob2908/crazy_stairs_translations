@@ -80,7 +80,7 @@ module.gui.shop = {
 	["architect"] = "Gamepassul de architect te lasă sa devi architect făra un VR.",
 	--END NEW
 
-	["chameleon"] = "Chamelioni pot schimba clasa in timpil urcări.",
+	["chameleon"] = "Chamelion pot schimba clasa in timpil urcări.",
 	["spectre"] = "Spectre este o clasă de teleportare cel mai bun pentru jucători solo.",
 	["mana"] = "Măreșteți capacitatea voastra de energie cu 10 puncte.",
 
@@ -159,7 +159,7 @@ module.gui.stats = {
 	["2124702949"] = "Excomunicație",
 	["2124702943"] = "Farse pentru Viața",
 	["2124702948"] = "Abilitățile nu sunt faine",
-	["2124826876"] = "Cerc Complet",
+	["2124826876"] = "Cerc Perfect",
 	["2124645341"] = "Secret",
 	["2126893403"] = "Super Secret",
 	["2126893411"] = "Mega Secret",
@@ -189,7 +189,7 @@ module.gui.questions = {
 	["race"] = "Intră În Concurs?",
 	["racein"] = "Concursul începe în:",
 	["go"] = "GO!",
-	["raceoff"] = "Race Închis",
+	["raceoff"] = "Concurs Anulat",
  	--end new
 }
 --END NEW
@@ -283,7 +283,7 @@ module.spells = {}
 
 local CommonSpellNames = {
 	["rigevent"] = "%s Rig",
-	["mode"] = "Drone modul %s ",
+	["mode"] = "Drone modul %s",
 	["refill"] = "Supraîncărcare de energie (%s)",
 	["union"] = "Uniare de fantomă (%s)",
 }
@@ -375,43 +375,43 @@ module.spells.names = {
 	["thiefaltevent"] = "Mega Bypass",
 
 	--ARCHON
-	["splitup"] = "Create Up Gate",
-	["splitrotate"] = "Create Rotated Gate",
-	["splitside"] = "Create Straight Gate",
-	["splitrandom"] = "Create Random Gate",
-	["cancelsplit"] = "Destroy Gate",
-	["splitforward"] = "Create Platform Gate",
+	["splitup"] = "Crează Portal",
+	["splitrotate"] = "Crează Portal Rotită",
+	["splitside"] = "Crează Portal În Sus",
+	["splitrandom"] = "Crează Portal Neștiută",
+	["cancelsplit"] = "Distruge Portal",
+	["splitforward"] = "Crează Portal De Platformă",
 
 	["splitter"] = "Portalmania",
 	["archonevent"] = "StairGåte-1",
-	["archonaltevent"] = "Division",
+	["archonaltevent"] = "Divisiune",
 
 	--DRIFTER
 	["indrift"] = "Surf",
-	["outdrift"] = "Random Drift",
-	["updrift"] = "Elevator",
-	["diagdrift"] = "Diagonal Drift",
-	["spin"] = "Spin Stairs",
+	["outdrift"] = "Drift Neștiut",
+	["updrift"] = "Lift",
+	["diagdrift"] = " Drift Diagonal",
+	["spin"] = "Învârte Scările",
 	["driftabove"] = "Lift Above Stairs",
 
-	["riser"] = "Riser",
+	["riser"] = "Zburător",
 	["drifterevent"] = "Driftage",
 	["drifteraltevent"] = "Liftage",
 
 	--HERETIC
-	["createcursed"] = "Create Cursed Stairs",
-	["curse"] = "Curse Stairs",
-	["curseabove"] = "Curse Above Stairs",
+	["createcursed"] = "Crează Scări Blocate",
+	["curse"] = "Blocează Scări",
+	["curseabove"] = "Blocează Scarile De Sus",
 	["curseinter"] = "Flicker",
-	["autodown"] = "Raise Schism",
-	["autoup"] = "Schism Opposite Down",
+	["autodown"] = "Ridică Schism",
+	["autoup"] = "Schism Spate Jos",
 
-	["malediction"] = "Malediction",
-	["hereticevent"] = "Disunion",
-	["hereticaltevent"] = "Vengeance",
+	["malediction"] = "Maledicție",
+	["hereticevent"] = "Disunie",
+	["hereticaltevent"] = "Vengenanță",
 
 	--SPLICER
-	["twistup"] = "Splice Stairs Up",
+	["twistup"] = "Taie Scările În Sus",
 	["twistside"] = "Splice Parallel Stairs",
 	["twistrotate"] = "Splice Adjacent Stairs",
 	["canceltwist"] = "Restore Twisted Stairs",
