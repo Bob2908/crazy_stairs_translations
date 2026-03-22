@@ -292,7 +292,7 @@ module.spells.names = {
 
 	--PATRON
 	["summon"] = "Crează Scări",
-	["restore"] = "Ceamă Bile", 
+	["restore"] = "Ceamă Bila", 
 	["split"] = "Reconstruieste spatele",
 	["shrinkabove"] = "Micșorează scările de sus",
 	["link"] = "Crează link",
