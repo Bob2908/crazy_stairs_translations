@@ -177,7 +177,7 @@ module.gui.questions = {
 	["gift"] = "Vrei sa dai Gamepassul de %s Lui cuiva?",
 	["choose"] = "Alege un jucător să primeasca gamepassul %s ", 
 	["confirm"] = "Vrei să dai gamepassul %s lui %s?", --second %s is the chosen player
-	["received"] = "You have received %s Game Pass, courtesy of %s!",
+	["received"] = "Ai primit gamepassul %s De la %s!",
 	
 	["architect"] = "Architect",
 	["mana"] = "+10 Energie În Plus",
@@ -348,7 +348,7 @@ module.spells.names = {
 
 	["traveller"] = "Shimmerare",
 	["spectreevent"] = "Rearanjare Fantomă",
-	["spectrealtevent"] = "Æther Realm",
+	["spectrealtevent"] = "Realmul Æther ",
 
 	--HACKER
 	["dash"] = "Teleport",
@@ -412,27 +412,27 @@ module.spells.names = {
 
 	--SPLICER
 	["twistup"] = "Taie Scările În Sus",
-	["twistside"] = "Splice Parallel Stairs",
-	["twistrotate"] = "Splice Adjacent Stairs",
+	["twistside"] = "Taie Scările Parallel",
+	["twistrotate"] = "Taie Scările",
 	["canceltwist"] = "Restore Twisted Stairs",
-	["split2"] = "Split Stairs",
-	["splitalt"] = "Split Stairs Forward",
+	["split2"] = "Despică Scările",
+	["splitalt"] = "Despică Scările În Față",
 
-	["twister"] = "Twister",
-	["splicerevent"] = "Interweave",
+	["twister"] = "Vărtej",
+	["splicerevent"] = "Tăiere",
 	["spliceraltevent"] = "Bisect",
 
 	--NECROMANCER
-	["createdual"] = "Create Dual Stairs",
-	["copyplatform"] = "Copy Ghost's Platform",
-	["soulbridge"] = "Create Soul Bridge",
-	["undeadabove"] = "Remove Soul Above",
-	["revival"] = "Revival Point",
-	["regen"] = "Regenerate Mana",
+	["createdual"] = "Crează Scări Duale",
+	["copyplatform"] = "Copiează Platforma La Phantomă",
+	["soulbridge"] = "Crează Pod de Suflet",
+	["undeadabove"] = "Șterge Sufletul De Sus",
+	["revival"] = "Punct De Revive",
+	["regen"] = "Regenerare Energie",
 
-	["duality"] = "Duality",
-	["necromancerevent"] = "Resurrection",
-	["necromanceraltevent"] = "Soul Harvest",
+	["duality"] = "Dualitatea",
+	["necromancerevent"] = "Resurrectie,
+	["necromanceraltevent"] = "Răpire De Suflet",
 
 	--REAVER
 	["createmirrored"] = "Create Mirrored Stairs",
