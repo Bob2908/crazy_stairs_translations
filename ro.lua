@@ -1,5 +1,5 @@
 --VERSION 4.2--
---BRITISH ENGLISH--
+--ROMANIAN--
 
 local TowerData = require(game.ReplicatedFirst:WaitForChild('DataModules'):WaitForChild('TowerData'))
 local SpellData = require(game.ReplicatedFirst.DataModules:WaitForChild('SpellData'))
@@ -26,7 +26,7 @@ module.gui.switcher = {
 	--NEW
 	["refreshbutton"] = "reîncarcare",
 	["failed"] = "Teleportare eșuată",
-	["classic"] = "Turn CLassic",
+	["classic"] = "Turn Classic",
 	["pro"] = "Turn Pro",
 	["custom"] = "Turn Costum",
 	["noVR"] = "Turn fără VR",
@@ -36,8 +36,8 @@ module.gui.switcher = {
 
 module.gui.serversettings = {
 
-	["Drones"] = "setări de drone",
-	["DronesReadOnly"] = "setări de drone (nemodificabilă)",
+	["Drones"] = "Setări De Drone",
+	["DronesReadOnly"] = "Setări de drone (nemodificabilă)",
 	["DroneEnabled"] = "Drone Pornite",
 	["DroneFix"] = "Drone Repară Scările",
 	["DroneRemove"] = "Dronele Șterg intersecțile Blocate",
@@ -45,7 +45,7 @@ module.gui.serversettings = {
 	["DroneMove"] = "Dronele Mișca Scările în mod Normal",
 	["DroneSpin"] = "Dronele învârt scările În mod Normal",
 	["DroneSpeed"] = "Viteză de dronă (nivel/secundă)",
-	["DroneDelay"] = "Duratie de Învârtire Dronă  (secunde)",
+	["DroneDelay"] = "Duratie de Învârtire Dronă (secunde)",
 	["DroneMax"] = "Număr maxim de scări (dronele vor șterge peste limita asta)",
 	["DroneMin"] = "Număr minim de scări (drone vor crea sub limita asta)",
 	["DroneBlock"] = "Șansă de intersecție Blockată pentru fiecare intersecție goală (La Suta)",
@@ -285,93 +285,93 @@ local CommonSpellNames = {
 	["rigevent"] = "%s Rig",
 	["mode"] = "Drone modul %s ",
 	["refill"] = "Supraîncărcare de energie (%s)",
-	["union"] = "Ghost Union (%s)",
+	["union"] = "Uniare de fantomă (%s)",
 }
 
 module.spells.names = {
 
 	--PATRON
-	["summon"] = "Create Stairs",
-	["restore"] = "Call the Orb", 
-	["split"] = "Rebuild Opposite",
-	["shrinkabove"] = "Shrink Above Stairs",
-	["link"] = "Create Link",
-	["portal"] = "Create Portal",
+	["summon"] = "Crează Scări",
+	["restore"] = "Ceamă Bile", 
+	["split"] = "Reconstruieste spatele",
+	["shrinkabove"] = "Micșorează scările de sus",
+	["link"] = "Crează link",
+	["portal"] = "Crează Portal",
 
-	["summoner"] = "Summoner",
-	["patronevent"] = "Stairs Overload",
-	["patronaltevent"] = "Shrinkage",
+	["summoner"] = "Creator",
+	["patronevent"] = "superîncărcare de scări",
+	["patronaltevent"] = "Micșorare",
 
 	--JOKER 
-	["flip"] = "Flip Stairs",
-	["flipabove"] = "Flip Above Stairs",
-	["fake"] = "Create Fake Stairs",
-	["invisible"] = "Create Invisible Stairs",
-	["disco"] = "Disco Stairs",
-	["trap"] = "Create Trap",
+	["flip"] = "Rotește Scări",
+	["flipabove"] = "Rotește Scările de sus",
+	["fake"] = "Crează scări false",
+	["invisible"] = "Crează scări invisibile",
+	["disco"] = "Scări Disco",
+	["trap"] = "Crează Capcană",
 
-	["flipper"] = "Flipper",
-	["jokerevent"] = "The Cloak",
-	["jokeraltevent"] = "Flip Them All",
+	["flipper"] = "Învârtitor",
+	["jokerevent"] = "mantiea",
+	["jokeraltevent"] = "Îvărtiți totul",
 
 	--WICKED
-	["destroy"] = "Destroy Stairs",
-	["destroyabove"] = "Destroy Above Stairs",
-	["bend"] = "Bend Stairs Up",
-	["damage"] = "Damage Above Stairs",
-	["flatten"] = "Bend Opposite Stairs Down",
-	["wall"] = "Create Wall" ,
+	["destroy"] = "Șterge Scări",
+	["destroyabove"] = "Șterge Scările De Sus",
+	["bend"] = "Indoaie scările de sus",
+	["damage"] = "Obby-ifică Scările De Sus",
+	["flatten"] = "Indoaie scările la față",
+	["wall"] = "Crează Perete" ,
 
-	["bender"] = "Bender",
-	["wickedevent"] = "Destruction",
+	["bender"] = "Indoitor",
+	["wickedevent"] = "Destrucție",
 	["wickedaltevent"] = "Purge",
 
 	--KEEPER
-	["move"] = "Move Stairs",
-	["rotate"] = "Rotate Stairs",
-	["moveup"] = "Move Stairs Up",
-	["movedown"] = "Restore Stairs",
-	["moverandom"] = "Random Above Move",
-	["rig"] = "Random Move",
+	["move"] = "Mișcă Scări",
+	["rotate"] = "Rotează Scări",
+	["moveup"] = "Mișcă Scări În Sus",
+	["movedown"] = "Repară Scări",
+	["moverandom"] = "Mișcă Scara De Sus",
+	["rig"] = "Mișcare Neștiută",
 
-	["ascension"] = "Ascension",
-	["keeperevent"] = "Reshuffle",
-	["keeperaltevent"] = "Restoration",
+	["ascension"] = "Ascenție",
+	["keeperevent"] = "Reordonare",
+	["keeperaltevent"] = "Restorație",
 
 	--SPECTRE
-	["phantom"] = "Create Phantom Stairs",
-	["ghost"] = "Ghostify Above Stairs",
-	["shadow"] = "Ghostify Stairs",
-	["horizontal"] = "Horizontal Teleport",
-	["random"] = "Random Teleport",
-	["vertical"] = "Vertical Teleport",
+	["phantom"] = "Crează Scări Phantome",
+	["ghost"] = "Ghostifică Scările De Sus",
+	["shadow"] = "Ghostifică Scări",
+	["horizontal"] = "Teleportare Horizontală",
+	["random"] = "Teleportare Neștiută",
+	["vertical"] = "Teleportare Verticală",
 
-	["traveller"] = "Shimmering",
-	["spectreevent"] = "Phantom Shuffle",
+	["traveller"] = "Shimmerare",
+	["spectreevent"] = "Rearanjare Fantomă",
 	["spectrealtevent"] = "Æther Realm",
 
 	--HACKER
-	["dash"] = "Dash",
-	["blink"] = "Blink",
-	["swap"] = "Swap",
+	["dash"] = "Teleport",
+	["blink"] = "clipare",
+	["swap"] = "Schimbare",
 	["slide"] = "Escalator",
-	["slideup"] = "Hack In Stairs",
-	["glitch"] = "Glitch Stairs",
+	["slideup"] = "Hackuiește Scări",
+	["glitch"] = "Teleportează scări",
 
-	["hack"] = "Speed Hack",
-	["hackerevent"] = "Escalation",
-	["hackeraltevent"] = "Breach",
+	["hack"] = "HEck de Viteză",
+	["hackerevent"] = "Escalație",
+	["hackeraltevent"] = "Spărgătură",
 
 	--THIEF
-	["steal"] = "Steal Stairs",
-	["stealabove"] = "Steal Above Stairs",
-	["place"] = "Place Stairs",
-	["uppass"] = "Spiral Staircase",
-	["sidepass"] = "Create Bypass",
-	["drop"] = "Ditch Stairs",
+	["steal"] = "Fura Scări",
+	["stealabove"] = "Fura Scările De Sus",
+	["place"] = "Pune Scări",
+	["uppass"] = "Scară Spirală ",
+	["sidepass"] = "Crează Bypass",
+	["drop"] = "Ditchează Scările",
 
 	["heist"] = "Heist",
-	["thiefevent"] = "Flat Land",
+	["thiefevent"] = "Teren Plat",
 	["thiefaltevent"] = "Mega Bypass",
 
 	--ARCHON
