@@ -507,9 +507,9 @@ module.spells.names = {
 local union = "Asta este o abilitate cu conometru uniare cu phantomă. Pentru un timp limitat, tu poți trece prin scări care te blochează și scări speciale nu au niciun efect pentru tine"
 local overload = "Asta este o abilitate overload. Pentru un timp Limitat, Primești o energie fiecare 6 secunde pentru un minut (10 energie În total)"
 local timed = "Abilitatea asta are Conometru "  -- do not remove space
-local rig = "This is a Rig spell. It will Rig all normal stairs, one by one, with " -- do not remove space
-local event = "Asta Este o abilitate Event. Va afecta toate scările  " -- do not remove space
-local fill = "This is a Fill spell. It will create stairs in every empty uncursed intersection in a random direction. " -- do not remove spaces
+local rig = "Asta este o abilitate rig. Va riga, 1 pe 1, fiecare scară cu " -- do not remove space
+local event = "Asta Este o abilitate Event. Va afecta toate scările cu " -- do not remove space
+local fill = "Asta Este o abilitate Fill. Ea va crea scări in fiecare intersecție goală. " -- do not remove spaces
 local mode = "This is a Drone spell. It will change the drone mode to %s. In this mode drones will cast randomly either %s or %s on normal stairs. Special stairs will be restored instead. Outside of limits, drones will create and destroy respectively."
 local timedExtra = " Rank up to %s to increase the limit to 90s. Casting this spell will also refill Mana for all %s with at least %s Rank." -- do not remove leading space
 
