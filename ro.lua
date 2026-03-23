@@ -483,22 +483,23 @@ module.spells.names = {
 	["share"] = "Împarte Energie (2 Energie Minim)",
 
 	--ARCHITECT
-	["archpatron"] = "Create or shrink",
-	["archarchon"] = "Gate stairs or platform",
-	["archthief"] = "Steal or place",
-	["archnecro"] = "Dual or Undead stairs",
-	["archhacker"] = "Escalator or Hack-in",
-	["archkeeper"] = "Move or Restore",
-	["archsplicer"] = "Splice or Split",
-	["archwicked"] = "Wall or Destroy",
-	["archgremlin"] = "Revolve stairs or a platform",
-	["archjoker"] = "Fake or Flip stairs",
-	["archdrifter"] = "Drift or Elevator",
-	["archspectre"] = "Phantom or Ghost stairs",
-	["archreaver"] = "Mirrored or One-way stairs",
+	["archpatron"] = "Crează Sau Micșoara",
+	["archarchon"] = "Scări Portal Sau Platformă Portală",
+	["archthief"] = "Fură Sau Pune",
+	["archnecro"] = "Dual sau Scări Ne-morți",
+	["archhacker"] = "Escalator Sau Hackuire",
+	["archkeeper"] = "Mișcă Sau Repară",
+	["archsplicer"] = "Taie Sau Splitează ",
+	["archwicked"] = "Perete Sau Distruge",
+	["archgremlin"] = "Revolvă Scările Sau Platforma",
+	["archjoker"] = "False Sau Întoarce Scări",
+	["archdrifter"] = "Drift Sau Lift",
+	["archspectre"] = "Phantomă Sau Scari-Phantomă",
+	["archreaver"] = "Mirrorate Sau Scări Singură Trecere",
 	["archheretic"] = "Curse intersection or stairs",
 
 	--END NEW
+
 
 }
 
