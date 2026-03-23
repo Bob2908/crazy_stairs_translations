@@ -358,7 +358,7 @@ module.spells.names = {
 	["slideup"] = "Hackuiește Scări",
 	["glitch"] = "Teleportează scări",
 
-	["hack"] = "HEck de Viteză",
+	["hack"] = "Heck de Viteză",
 	["hackerevent"] = "Escalație",
 	["hackeraltevent"] = "Spărgătură",
 
@@ -435,37 +435,37 @@ module.spells.names = {
 	["necromanceraltevent"] = "Răpire De Suflet",
 
 	--REAVER
-	["createmirrored"] = "Create Mirrored Stairs",
-	["bigmirror"] = "Giant Mirror",
-	["smallmirror"] = "Small Mirror",
-	["outermirror"] = "Outer Mirror",
-	["merge"] = "Reaver Merge",
-	["oneway"] = "Glass Stairs",
+	["createmirrored"] = "Crează Scări De Oglindă",
+	["bigmirror"] = "Oglindă Mare",
+	["smallmirror"] = "Oglindă Mică",
+	["outermirror"] = "Oglindă Scoasă",
+	["merge"] = "Combinare Reaver",
+	["oneway"] = "Scări De Sticlă",
 
-	["reflection"] = "Reflection",
-	["reaverevent"] = "Cross Roads",
-	["reaveraltevent"] = "Vitrification",
+	["reflection"] = "Reflecție",
+	["reaverevent"] = "Cross-roaduri",
+	["reaveraltevent"] = "Vitrtificație",
 
 
 	--GREMLIN
-	["tram"] = "Create Tram Stairs",
-	["screwup"] = "Up Corkscrew",
-	["revolve"] = "Revolve Stairs",
-	["trapstairs"] = "Trapdoor Stairs",
-	["screwdown"] = "Down Corkscrew",
-	["spinplatform"] = "Revolve Platform",
+	["tram"] = "Crează Scări De Tren",
+	["screwup"] = "Corkscrew Sus",
+	["revolve"] = "Revolvă Scările",
+	["trapstairs"] = "Scări Trapdoor",
+	["screwdown"] = "Corkscrew Jos",
+	["spinplatform"] = "Revolvă Platforma",
 
-	["tramway"] = "Tram-way",
+	["tramway"] = "Tram-way", 
 	["gremlinevent"] = "Revolvelution",
 	["gremlinaltevent"] = "Gridlock",
 	
 	--TUTORIAL
-	["tcreate"] = "Create Stairs",
-	["tflip"] = "Flip Stairs",
-	["tdestroy"] = "Destroy Above Stairs",
-	["tmove"] = "Move Stairs",
-	["tdash"] = "Dash",
-	["trestore"] = "Restore Stairs",
+	["tcreate"] = "Createză Scări",
+	["tflip"] = "Rotește Scări",
+	["tdestroy"] = "Șterge Scările De Sus",
+	["tmove"] = "Mișcă Scări",
+	["tdash"] = "Teleport",
+	["trestore"] = "Repară Scări",
 
 	--CHAMELEON
 	["ditch"] = "Cross Stairs",
@@ -478,9 +478,9 @@ module.spells.names = {
 
 	--NEW
 
-	["mugglereg"] = "Staircase is regenerating",
-	["mugglecd"] = "Events and Rigs Cooldown",
-	["share"] = "Share mana (requires 2 Mana minimum)",
+	["mugglereg"] = "Scările Se Regenerez",
+	["mugglecd"] = "Cooldown De Event Și Rig",
+	["share"] = "Împarte Energie (2 Energie Minim)",
 
 	--ARCHITECT
 	["archpatron"] = "Create or shrink",
